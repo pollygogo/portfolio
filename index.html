@@ -57,8 +57,8 @@
     <div id="about" class="container-fluid min-vh-100 d-flex flex-column justify-content-center align-items-center">
       <div class="row">
         <div class="col-md-8 d-flex flex-column justify-content-center align-items-start">
-          <h1>Hi, I'm Gladys</h2>
-          <p>I am an aspiring software engineer passionate about building user-focused solutions to every day problems. I love the creative problem-solving that comes with code, and I’m always looking to improve through hands-on projects. When I'm not coding, you can usually find me making music, watching movies, or walking my dogs.</p>
+          <h1>Hi, I'm <span id="gladys">Gladys</span></h2>
+          <p class="lead">I am an aspiring software engineer passionate about building user-focused solutions to every day problems. I love the creative problem-solving that comes with code, and I’m always looking to improve through hands-on projects. When I'm not coding, you can usually find me making music, watching movies, or walking my dogs.</p>
         </div>
         <div class="col-8  col-md-3 d-flex justify-content-center">
           <img src="images/profile.jpg" alt="Profile Picture"  class="img-fluid img-rounded">
@@ -71,52 +71,52 @@
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="images/kairo.png" class="card-img-top" alt="...">
+            <img src="images/kairo.png" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
             <div class="card-body">
               <h5 class="card-title">Kairo</h5>
               <p class="card-text">Kairo is an innovative all-in-one student life management application designed to centralize and simplify campus information and scheduling for SUTD students.</p>
+              <a href="https://github.com/pollygogo/kairo.git" class="btn btn-primary">GitHub Repo</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="images/letsmeet.png" class="card-img-top" alt="...">
+            <img src="images/letsmeet.png" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
+              <h5 class="card-title">Let's Meet</h5>
+              <p class="card-text">Let's Meet is a Telegram bot built using pyTelegramBotAPI that helps users schedule and coordinate meetups effortlessly by suggesting common available slots based on their timetables.</p>
+              <a href="https://www.youtube.com/shorts/SasT_jvuJOc" class="btn btn-primary">Demo Video</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="images/cms.png" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              <h5 class="card-title">Count-Min Sketch: The Data Structure Behind Spotify Wrapped and Other Large-Scale Applications</h5>
+              <p class="card-text">In this article, I take a deep dive into the Count-Min Sketch data structure, explaining how it estimates frequencies in massive data streams using hash functions, with a focus on real-world applications and Python implementation.</p>
+              <a href="https://medium.com/@gladysbachtiar/count-min-sketch-the-data-structure-behind-spotify-wrapped-and-other-large-scale-applications-5a885ed4ab4a" class="btn btn-primary">Read Article</a>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
+      
       </div>
     </div>
 
-    <div id="other-works" class="container-fluid d-flex flex-column min-vh-100">
+    <div id="other-works" class="container-fluid d-flex flex-column min-vh-100 justify-content-between align-items-end ">
       <h1>Other Works</h1>
-      <div class="container-fluid d-flex  align-items-center">
+      <div class="container-fluid d-flex justify-content-start align-items-center pb-5">
 
-        <div class="row d-flex justify-content-center gap-4">
-
-          <div class="col">
-
-          </div>
+        <ul id="other-works-nav" class="nav nav-underline flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#design">Design and 3D Modelling</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#music">Music</a>
+          </li>
+        </ul>
+      </div>
+    </div>
      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
