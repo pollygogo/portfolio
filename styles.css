@@ -1,0 +1,46 @@
+body {
+    background-color: #fefbf0;
+}
+
+body header {
+    background-color: #fefbf0;
+    border-bottom: 1px solid #404040;
+}
+#home {
+    min-height: 100vh;
+    vertical-align: middle;
+}
+
+#socials svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav-link {
+    color: #404040;
+    text-transform: lowercase;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: clamp(2rem, 7vw, 8rem);
+    font-weight: bold;
+    color: #404040;
+}
+
+#about {
+    font-size: 1.5rem;
+    color: #404040;
+    padding-top: calc(1rem + 56px);
+}
+
+#about img {
+    width: 100%;
+    height: auto;
+    
+}
+
+#about, #projects, #other-works {
+    padding-top: 56px;
+}
