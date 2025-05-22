@@ -14,12 +14,21 @@ body header {
 #socials svg {
     width: 1.5rem;
     height: 1.5rem;
+    color: #404040;
+}
+
+#socials svg:hover {
+    color: #c96658;
 }
 
 body header #navbar a {
     color: #404040;
     font-size: 1rem;
     font-weight: lighter;
+}
+
+body header #navbar a:hover {
+    color: #c96658;
 }
 
 h1 {
@@ -49,6 +58,10 @@ h1 {
 }
 
 #other-works #other-works-nav a {
-    font-size: clamp(2rem, 3vw, 5rem);
+    font-size: clamp(2rem, 2vw, 5rem);
     color: #404040;
+}
+
+#other-works #other-works-nav a:hover {
+    color: #c96658;
 }
