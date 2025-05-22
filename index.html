@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="navbar fixed-top px-2">
+    <header class="navbar flex-sm-column fixed-top px-2">
       <div class="container-fluid d-flex justify-content-between align-items-center">
         
         <a class="navbar-brand" href="#home">
@@ -24,7 +24,7 @@
             <a class="nav-link" href="#projects">projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#other-works">other works</a>
+            <a class="nav-link" href="#other-works">other works</a>
           </li>
         </ul>
       </div>
@@ -72,30 +72,41 @@
         <div class="col">
           <div class="card h-100">
             <img src="images/kairo.png" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
-            <div class="card-body">
-              <h5 class="card-title">Kairo</h5>
-              <p class="card-text">Kairo is an innovative all-in-one student life management application designed to centralize and simplify campus information and scheduling for SUTD students.</p>
-              <a href="https://github.com/pollygogo/kairo.git"  target="_blank" class="btn btn-primary">GitHub Repo</a>
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">Kairo</h5>
+                <p class="card-text">Kairo is an innovative all-in-one student life management application designed to centralize and simplify campus information and scheduling for SUTD students.</p>
+                <p class="card-text"><small class="text-body-secondary">Java, XML</small></p>
+              </div>
+              <a href="https://github.com/pollygogo/kairo.git"  target="_blank" class="btn-sm btn-primary">GitHub Repo</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
             <img src="images/letsmeet.png" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
-            <div class="card-body">
-              <h5 class="card-title">Let's Meet</h5>
-              <p class="card-text">Let's Meet is a Telegram bot built using pyTelegramBotAPI that helps users schedule and coordinate meetups effortlessly by suggesting common available slots based on their timetables.</p>
-              <a href="https://www.youtube.com/shorts/SasT_jvuJOc" target="_blank" class="btn btn-primary">Demo Video</a>
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title ">Let's Meet</h5>
+                <p class="card-text">Let's Meet is a Telegram bot built using pyTelegramBotAPI that helps users schedule and coordinate meetups effortlessly by suggesting common available slots based on their timetables.</p>
+                <p class="card-text"><small class="text-body-secondary">Python, JSON</small></p>
+              </div>
+              <a href="https://www.youtube.com/shorts/SasT_jvuJOc" target="_blank" class="btn-sm btn-primary">Demo Video</a>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card h-100">
             <img src="images/cms.png" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
-            <div class="card-body">
+            <div class="card-body d-flex flex-column justify-content-between">
               <h5 class="card-title">Count-Min Sketch: The Data Structure Behind Spotify Wrapped and Other Large-Scale Applications</h5>
-              <p class="card-text">In this article, I take a deep dive into the Count-Min Sketch data structure, explaining how it estimates frequencies in massive data streams using hash functions, with a focus on real-world applications and Python implementation.</p>
-              <a href="https://medium.com/@gladysbachtiar/count-min-sketch-the-data-structure-behind-spotify-wrapped-and-other-large-scale-applications-5a885ed4ab4a" target="_blank" class="btn btn-primary">Read Article</a>
+              <div>
+                <p class="card-text">In this article, I take a deep dive into the Count-Min Sketch data structure, explaining how it estimates frequencies in massive data streams using hash functions, with a focus on real-world applications and Python implementation.</p>
+                <p class="card-text"><small class="text-body-secondary">Data Structures, Algorithms</small></p>
+              </div>  
+             
+              
+              <a href="https://medium.com/@gladysbachtiar/count-min-sketch-the-data-structure-behind-spotify-wrapped-and-other-large-scale-applications-5a885ed4ab4a" target="_blank" class="btn-sm btn-primary">Read Article</a>
             </div>
           </div>
         </div>
@@ -103,40 +114,55 @@
       </div>
     </div>
 
-    <!-- <div id="other-works" class="container-fluid d-flex flex-column min-vh-100 justify-content-center align-items-start mb-5 ">
-      <h1>Other Works</h1>
-      <div class="row ">
-        <div class="col d-flex justify-content-start align-items-center pb-5">
-        
-
-          <ul id="other-works-nav" class="nav nav-underline flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#design">Design and 3D Modelling</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#music">Music</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col d-flex justify-content-start align-items-center pb-5">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="...">
+    <div id="other-works" class="container-fluid min-vh-100 ">
+      <h1 class="text-end">Other Works</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/colour_clash.jpg" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">Colour Clash</h5>
+                <p class="card-text">Colour Clash is a fast-paced, reaction-based game that challenges players to match colors under time pressure. Its design focuses on bold, high-contrast visuals and intuitive interaction.</p>
+                <p class="card-text"><small class="text-body-secondary">Rhino 3D, Graphic Design</small></p>
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
+              <a href="images/colour_clash.pdf"  target="_blank" class="btn-sm btn-primary">Poster</a>
             </div>
           </div>
         </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/spatial.png" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title ">Spatial Design World</h5>
+                <p class="card-text">As part of the Spatial Design World module, I created a detailed floorplan of my bedroom using Rhino. This project focused on spatial awareness, proportion, and precision in 2D drafting, helping me translate real-world environments into clear architectural representations.</p>
+                <p class="card-text"><small class="text-body-secondary">Rhino 3D</small></p>
+              </div>
+              <a href="images/spatial.pdf" target="_blank" class="btn-sm btn-primary">Full Image</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/endless_love.png" class="card-img-top" alt="..." style="height: 350px; object-fit: cover;">
+            <div class="card-body d-flex flex-column justify-content-between">
+              
+              <div>
+                <h5 class="card-title">Endless Love</h5>
+                <p class="card-text">A harp and erhu cover of Endless Love, recorded remotely during the COVID-19 pandemic. Performed in collaboration with my sister in Jakarta, this project brought us together through music despite the distance — blending the delicate tones of the harp with the expressive voice of the erhu.</p>
+                
+              </div>  
+             
+              
+              <a href="https://www.youtube.com/watch?v=RoFmuOuFkjQ" target="_blank" class="btn-sm btn-primary">Watch Video</a>
+            </div>
+          </div>
+        </div>
+      
       </div>
       
-    </div> -->
+    </div>
      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
